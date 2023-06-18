@@ -1,0 +1,72 @@
+/* select company/brand  */
+.select--company-or-brand{
+    position: absolute;
+    top: 50px;
+    left: -40%;
+    width: 353px;
+    background: #FFFFFF;
+    border: 1px solid var(--gray-C7);
+    box-sizing: border-box;
+    display: none;
+    border-radius: 5px;
+}
+
+.search--input {
+    padding: 11px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--gray-C7);
+    margin: 23px 23px 10px 23px;
+}
+
+.search--input input{
+    border: none;
+    width: 100%;
+}
+
+.select__one{
+    display: flex;
+    justify-content:flex-end;
+    padding: 14px 23px;
+    position: relative;
+}
+
+.select__one:first-child > p{
+    color: var(--gray-6F);
+}
+
+
+.select__one:hover {
+    background: var(--gray-F4);
+    transition: 0.3s linear;
+}
+
+.select__one p {
+    width: 100%;
+    text-align: left;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.select__one img{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contain--selection{
+    max-height: 350px;
+    overflow: auto;
+}
+
+.background-gray{
+    background-color: var(--gray-F4);
+}
+
+.active_status{
+    background-color: var(--gray-F4);
+}

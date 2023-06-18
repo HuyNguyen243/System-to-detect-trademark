@@ -1,0 +1,152 @@
+.index_violation-nonViolation{
+    display: flex;
+}
+
+.style_status{
+    margin: 16px 199px;
+    padding: 40px 60px;
+}
+
+.height_before{
+    height: 70px !important;
+    text-align: center;
+}
+
+.height_before p{
+    line-height: 30px;
+}
+
+.height_after p{
+    line-height: 10px !important;
+}
+
+.height_after{
+    height: 70px !important;
+    text-align: center;
+}
+
+.general_analysis{
+    width: 100%;
+}
+
+.title-violation{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 170%;
+    color: var(--color-06);
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title_table_analysis{
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.review_violation .number-violation{
+    color: var(--primary);
+}
+
+.total_entries .number-violation{
+    color: var(--primary);
+}
+
+.number-violation{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    width: 100%;
+}
+
+.padding_btn_analysis .create__profile{
+    padding: 17px 0 ;
+    justify-content: flex-end;
+}
+
+.total-violation,
+.percent-violation{
+    color: var(--gray-6F);
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 136.5%;
+    position: absolute;
+    top: 15px;
+    right: 25px
+}
+
+.unable_detect .number-violation{
+    color: #5DA364;
+}
+
+.unable_detect .percent-violation{
+    background-color: var(--percent_success);
+}
+
+.violations_analysis .number-violation{
+    color: var(--danger);
+}
+
+.table_analysis tbody tr th img{
+    cursor: pointer;
+}
+
+#apply_query{
+    margin-left: 5px;
+}
+
+.title_analysis{
+    margin: 0;
+}
+
+.title_analysis .list--select--option,
+.title_analysis .list--title{
+    margin: 0 199px;
+}
+
+.type_pc{
+    display: block;
+}
+
+.type_mobi{
+    display: none;
+}
+
+.title_table_analysis p{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 136.5%;
+    color: var(--color-06);
+
+}
+
+#apply_date{
+    background-color: var(--pink_new);
+    color: var(--white);
+    font-family: var(--font-avenir_roman);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 22px;
+    width: 120px;
+    border: none;
+}
+
+.table_countries{
+    height: 660px;
+}

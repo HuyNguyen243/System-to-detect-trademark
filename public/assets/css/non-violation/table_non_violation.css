@@ -1,0 +1,105 @@
+.col-left-non-vio{
+    width: 100%;
+}
+.container-row-non-vio{
+    width: 94%;
+    margin: auto;
+}
+.th-title-right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.th-title-right p{
+    margin-right: 5px;
+}
+a.check-false {
+    background: url(../../image/check_false.svg) no-repeat center center;
+}
+a.check-true {
+    background: url(../../image/check_true.svg) no-repeat center center;
+}
+a.check-true-disabled{
+    background: url(../../image/check_true_disabled.svg) no-repeat center center;
+    cursor: not-allowed;
+}
+a.check-false-disabled{
+    background: url(../../image/check_false_disabled.svg) no-repeat center center;
+    cursor: not-allowed;
+}
+
+a.check-true, a.check-false ,a.check-true-disabled,a.check-false-disabled {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain !important;
+    /* cursor: not-allowed; */
+}
+.disabled-select{
+    cursor: not-allowed;
+}
+.status-title{
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10px;
+    white-space: nowrap;
+}
+.violation-color{
+    background: var(--pink);
+    color: var(--danger);
+}
+.unviolation-color{
+    color: var(--success);
+    background: #E2F2E3;
+}
+.entry-title-br{
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-title-tyle a:hover{
+    text-decoration: underline !important;
+}
+.entry-title-one{
+    width: 59%;
+}
+.entry-title-tyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.reviewing-color{
+    background: #DAEFFF;
+    border-radius: 5px;
+}
+.reviewing-title{
+    display: flex;
+    align-items: center;
+}
+.flex-space_beetween{
+    width: 100% !important;
+}
+.track-non{
+    flex: 1 0 calc(25%);
+}
+.entry-one-item{
+    display: flex !important;
+    justify-content: flex-start;
+}
+
+@media (max-width: 365px){
+    .status-title{
+        font-size: 12px;
+    }
+    .p-style {
+        font-size: 10px;
+    }
+}

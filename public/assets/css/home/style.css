@@ -1,0 +1,206 @@
+.py-4 {
+    overflow-x: hidden !important;
+    padding-top: 0rem!important;
+}
+
+.vituar_validation{
+    width: 100%;
+    background: url(../../image/home/img-2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.content__vituar{
+    max-width: 1096px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 189px;
+    padding-bottom: 258px;
+    margin-top: 2px;
+}
+
+.content__vituar p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    color: var(--white);
+    max-width: 576px;
+    width: 100%;
+}
+.content__vituar p:first-child{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+
+    color: var(--white);
+}
+
+.content__vituar p:nth-child(2){
+    text-align: justify;
+    padding-right: 153px;
+}
+
+.content__vituar button{
+    padding:12px 57px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 136.5%;
+    color: var(--white);
+    background: var(--pink_new);
+    border: none;
+    margin-top: 19px;
+    font-family: var(--font-avenir_roman);
+
+}
+
+.background__content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.background__content p{
+    max-width: 363px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    color: var(--black);
+    text-align: justify;
+
+}
+
+.background__content p:first-child{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    color: var(--black);
+}
+
+
+.background__vituar-2{
+    margin: 50px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.background__vituar-2 > .background__image {
+    max-width: 512px;
+    width: 100%;
+}
+.background__vituar-2 > div img{
+    width: 100%;
+}
+
+.background__vituar-2 .background__content{
+    align-items: center;
+    display: flex;
+}
+
+.background__vituar-3 .background__content{
+    background: #000000;
+}
+
+.background__vituar-3 .background__content p {
+    color: var(--white);
+    margin: 0 auto;
+}
+
+.background__vituar-4{
+    display: flex;
+    justify-content:center;
+}
+
+.background__vituar-4 p{
+    max-width: 874px;
+    width: 100%;
+    margin: 57px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black);
+    text-align: justify;
+}
+
+.background__vituar-5{
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.background__vituar-5 .background__image{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid var(--gray-C7);
+    padding: 73px 0;
+    width: 32.5%;
+}
+
+.background__vituar-5 .background__image img {
+    width: inherit;
+}
+
+.background__vituar-5 .background__image:nth-child(2){
+    padding-top: 45px;
+}
+
+.background__vituar-5 .background__image:nth-child(3) img,
+.background__vituar-5 .background__image:nth-child(2) img{
+    width: 60%;
+}
+
+.background__vituar-6 p {
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    color: var(--pink_new);
+    text-align: center;
+    padding: 98px 0 63px 0;
+}
+
+.background__vituar-7{
+    margin: 0 60px;
+    margin-bottom: 155px;
+}
+
+.background__vituar-7 .background__image{
+    background: var(--gray-F4);
+    border: 1px solid var(--gray-C7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 33vw;
+}
+
+.background__vituar-7 .background__image p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 152.5%;
+    color: var(--black);
+    padding-top: 1.5vw;
+    text-align:center;
+    height: 45px;
+}
+
+
+

@@ -1,0 +1,97 @@
+.select--violation--type{
+    position: absolute;
+    top: 50px;
+    left: -80%;
+    width: 480px;
+    background: var(--white);
+    border: 1px solid  var(--gray-C7);
+    box-sizing: border-box;
+    max-height: 350px;
+    overflow: auto;
+    display: none;
+    border-radius: 5px;
+}
+
+.select__one--violation--type{
+    display: flex;
+    justify-content:flex-end;
+    padding: 14px 23px;
+    position: relative;
+}
+
+.select__one--violation--type:first-child > p{
+    color: var(--gray-6F);
+}
+
+.select__one--violation--type:hover {
+    background-color: var(--gray-F4);
+    transition: 0.3s linear;
+}
+
+.select__one--violation--type p {
+    width: 100%;
+    text-align: left;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.select__one--violation--type img{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn__apply{
+    background-color: var(--pink_new);
+    color: var(--white);
+    font-family: var(--font-avenir_roman);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 22px;
+    width: 120px;
+    border: none;
+}
+
+.create__profile{
+    margin-left: 5px;
+    padding: 12px 13px;
+    background-color: var(--pink_new);
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-family: var(--font-avenir_roman);
+}
+
+.create__profile:after{
+    content: "Add admin";
+    color: var(--white);
+    font-family: var(--font-avenir_roman);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.btn_excel:before{
+    content: "Export excel";
+}
+
+.btn_excel{
+    color: var(--white);
+    font-family: var(--font-avenir_roman) !important;
+    font-style: normal !important;
+    font-weight: 450 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+
+.btn_create_user_mobi{
+    display: none;
+}

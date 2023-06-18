@@ -1,0 +1,266 @@
+/* modal edit account  */
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    width: 100%;
+  }
+
+  .overlay{
+    background: rgba(77, 77, 77, .7);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+    height: 100%;
+  }
+
+  .modal__open {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal__content {
+    border-radius: 4px;
+    position: relative;
+    max-width: 650px;
+    width: 100%;
+    background: var(--white);
+    padding: 15px;
+    z-index: 105;
+  }
+
+  .close__modal{
+    text-align: right;
+  }
+
+  .close__modal:before{
+    content: url(../../image/x.svg);
+    cursor: pointer;
+  }
+
+  .title-modal{
+    text-align: center;
+  }
+
+  .title-modal p{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 420;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .content-modal{
+    text-align: center;
+  }
+
+  .content-modal p{
+    font-family: var(--font-system-ui);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--black);
+
+  }
+
+  .modal--input{
+      margin-top: 10px;
+  }
+
+  .modal--input p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6F6F6F;
+    margin-bottom: 5px;
+  }
+
+  .input--modal{
+   display: flex;
+   border: 1px solid var(--gray-C7);
+   padding: 10px;
+  }
+
+  .input--modal input {
+    border: none;
+    width: 100%;
+    padding-right: 5px;
+    background-color: var(--white);
+  }
+
+  .input--modal input::placeholder{
+      color: var(--gray-C7);
+  }
+
+  .btn__change--password{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: var(--pink_new);
+    margin-top: 10px;
+  }
+  .btn-modal{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-modal button{
+    margin-top: 13px;
+    padding: 12px 0;
+    font-family: var(--font-avenir_roman);
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 136.5%;
+    text-align: center;
+    color: var(--gray-6F);
+    background-color: var(--white);
+    border: 1px solid #C7C7C7;
+    width: 49%;
+  }
+
+  .btn-modal button:last-child{
+    color: var(--white);
+    background-color: var(--pink_new);
+  }
+
+  .list--suspected__text--img > div:first-child{
+      margin-top: 20px;
+  }
+
+  .list--suspected__text--img > div:nth-child(2),
+  .list--suspected__text--img > div:first-child{
+    margin-left: 0px;
+  }
+
+  .role_edit{
+      display: flex;
+      justify-content:space-around;
+  }
+
+  /* modal checkbox  */
+  .container__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family:system-ui;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* color: var(--gray-6F); */
+  }
+
+  .container__checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkbox__suspected:first-child:after {
+    content: "Enter the suspected text/Drop image";
+}
+
+  .checkbox__suspected:nth-child(2):after {
+    content: "Enter the suspected URL";
+}
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 1px solid var(--pink_new);
+  }
+
+  .container__checkbox:hover input ~ .checkmark {
+    background-color: var(--white);
+  }
+
+  .container__checkbox input:checked ~ .checkmark {
+    background-color: var(--white);
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container__checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container__checkbox .check_role:after {
+    left: 4px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    border: solid var(--primary-color);
+    border-radius: 50%;
+    background: var(--pink_new);
+  }
+
+  .text-dangers{
+    color: var(--danger) !important;
+    padding-top: 10px !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    display: block;
+    padding-top: 10px;
+}
+
+.invalid-feedback strong,
+.text-dangers strong{
+    color: var(--danger) !important;
+    padding-top: 10px !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    display: block;
+    padding-top: 10px;
+}
+
+.modal_edit_user{
+    width: 100%;
+}
+
+.open_delete_user{
+    display: none;
+}
+
+.delete__profile_modal{
+    display: none ;
+}
+
+

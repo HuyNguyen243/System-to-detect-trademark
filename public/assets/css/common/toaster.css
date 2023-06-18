@@ -1,0 +1,76 @@
+.toaster {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: var(--white);
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 30px;
+    font-size: 17px;
+    z-index: 1100 !important;
+}
+
+.toaster.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 3s;
+    animation: fadein 0.5s, fadeout 0.5s 3s;
+    z-index: 1100 !important;
+
+}
+
+.toaster.success {
+    background-color: var(--success);
+}
+
+.toaster.error {
+    background-color: var(--danger);
+}
+.toaster-style-mobile{
+    width: 74%;
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@media (max-width: 425px){
+    .toaster {
+        visibility: hidden;
+        min-width: 250px;
+        background-color: #333;
+        color: var(--white);
+        text-align: center;
+        border-radius: 2px;
+        padding: 10px;
+        position: fixed;
+        z-index: 1;
+        bottom: 30px;
+        left: 50%;
+        font-size: 17px;
+        transform: translateX(-50%);
+        max-width: 300px;
+        width: 100%;
+        z-index: 1100 !important;
+        margin-left: 0;
+        right: 0;
+    }
+}

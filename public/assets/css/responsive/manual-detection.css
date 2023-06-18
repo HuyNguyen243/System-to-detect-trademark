@@ -1,0 +1,142 @@
+
+@media(max-width: 1113px){
+    .checkbox__suspected:first-child:after {
+        content: "Text/image";
+        font-family: var(--font-bradon);
+        font-style: normal;
+        font-weight: 420;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .fix_manual{
+        margin: 0px !important;
+    }
+
+    .fix_manual .list--title{
+        margin-left: 45px;
+    }
+
+    #modal-country-label_mobi .full_modal .container_modal_edit .country_mobi {
+        display: block !important;
+    }
+
+    #modal-country-label_mobi .full_modal .container_modal_edit .country_mobi .contain_country .select__one--country{
+        padding: 5px 23px;
+    }
+
+    .checkbox__suspected:nth-child(2):after {
+        content: "URL";
+        font-family: var(--font-bradon);
+        font-style: normal;
+        font-weight: 420;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .checkbox__suspected .checkmark{
+        display: none;
+    }
+
+    .fix_manual .list--select--option,
+    .fix_manual > form,
+    .fix_manual .list--suspected__text--img{
+        margin: 0 16px;
+    }
+
+    .btn__check{
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        padding: 0 16px;
+    }
+
+
+    .fix_manual > form .btn__check{
+        max-width: 100% !important;
+    }
+
+    .suspected__text__area{
+        max-width: 100%;
+        height: 140px;
+    }
+
+    .suspected__file__area{
+        padding: 0px !important;
+    }
+
+    .file-input_detect{
+        max-width: 100%;
+        border-style: dashed !important;
+        margin: 12px 0;
+    }
+
+    .file-input_detect > .button{
+        padding-top: 20px;
+    }
+
+    .file-input_detect > .button > img{
+        width: 30px;
+    }
+
+    .file-input_detect > .label{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .list--suspected__text--img div > label{
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .active_checked{
+        background-color: var(--gray-F4) !important;
+        border-radius: 10px;
+    }
+
+    .country_mobile{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .check_country{
+        margin-top: 25px;
+    }
+
+    .gray_mobi{
+        display: block;
+    }
+
+    .btn__check #submit_captcha{
+        background-color: var(--primary);
+    }
+
+    .title__result p{
+        font-family: var(--font-bradon);
+        font-style: normal;
+        font-weight: 420;
+        font-size: 20px;
+        line-height: 29px;
+        color: var(--primary);
+    }
+
+    .file-input_detect > .label,
+    .input-style-focus::placeholder{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--gray-C7);
+    }
+
+
+
+}
+
+@media (max-width: 739px) {
+    .fix_manual .list--select--option .list--select__left .list--search {
+        width: 100%;
+    }
+    .search__result__table p{
+        font-size: 30px;
+    }
+}

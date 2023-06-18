@@ -1,0 +1,291 @@
+.list--search--select{
+    margin-left: 60px;
+}
+
+.list--country,
+#daterange,
+.list--search{
+    width: 220px;
+    display: flex;
+    border: 1px solid var(--gray-C7);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5px;
+    height: 45.6px;
+}
+
+.list--country{
+    width: 130px;
+}
+
+.list--country img,
+.list--violation--type img,
+.list--company--brand img,
+#daterange img,
+.list--search img {
+    margin: -2px 10px;
+    width: 10px;
+}
+
+#daterange img{
+    margin: -2px 7px;
+}
+
+.list--country p,
+.list--violation--type p,
+.list--company--brand p,
+#daterange input,
+.list--search p {
+    font-size: 14px;
+}
+
+.list--company--brand img:first-child,
+.list--search img:first-child,
+#daterange img:first-child,
+.list--violation--type img:first-child,
+.list--country img:first-child{
+    width: 15px;
+}
+
+.list--company--brand p ,
+.list--violation--type p,
+.list--country p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: system-ui;
+}
+
+#daterange input{
+    border: none;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.list--search input{
+    border: none;
+    margin: 10px 5px 10px 0px;
+    width: 100%;
+}
+
+.form--daterange{
+    cursor: pointer;
+    font-family: system-ui !important;
+}
+.input-style-focus{
+    font-family: system-ui !important;
+
+}
+
+.btn__change--password,
+.input--modal img,
+#edit__profile p,
+.delete__profile,
+.edit__profile img,
+.create__profile,
+.list--showing select{
+    cursor: pointer;
+}
+
+.li-delete-profile{
+    padding-left: 10px !important;
+}
+
+.list--showing{
+    padding: 13px;
+    border: 1px solid var(--gray-C7);
+    font-family: system-ui !important;
+}
+
+.list--showing select,
+#daterange input,
+.search:focus-visible{
+    outline: none;
+}
+
+.list--company--brand{
+    width: 175px;
+    display: flex;
+    border: 1px solid var(--gray-C7);
+    padding: 14px 0 ;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.list--country{
+    position: relative;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.list--violation--type{
+    width: 150px;
+    display: flex;
+    border: 1px solid var(--gray-C7);
+    padding: 14px 0 ;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.list--select--option{
+    display: flex;
+    align-items: center;
+}
+
+.padding_btn_analysis{
+    justify-content:flex-end;
+}
+
+.list--select__left{
+    display: flex;
+    width: 100%;
+}
+
+.max_width{
+    width: 100% !important;
+}
+
+.list--title p {
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 24px 0 15px 0;
+    width: max-content;
+    display:inline-block;
+}
+
+.list--select__right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.list--select__right > p{
+    padding-right: 12px;
+}
+
+.list--select__right p{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 136.5%;
+}
+
+.list--select__right select{
+    width: 66px;
+    border: none;
+    font-size: 14px;
+}
+
+.list_filter{
+    display: flex;
+}
+
+.hide{
+    display: none !important;
+}
+
+.name_trace--violation:after{
+    background-image: url(../../image/Under-than.svg);
+    background-size: 10px 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    content:"";
+}
+
+.activeName .name_trace--violation:after{
+    background-image: url(../../image/Under-than-pink.svg) !important;
+}
+
+.activeName .name_trace--violation,
+.activeName a,
+.name_trace--violation:hover{
+    color: var(--pink_new);
+}
+
+.name_trace--violation:hover:after{
+    background-image: url(../../image/Under-than-pink.svg);
+}
+
+.name_login{
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 420;
+    font-size: 19px;
+    line-height: 29px;
+    color: var(--pink_new);
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    margin-right: 30px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.name_user{
+    display: none;
+}
+
+.padding-70{
+    padding-top: 0px;
+}
+
+.btn_edit_profile_mb #edit__profile p{
+    margin-bottom: 20px;
+}
+
+.after-login:after{
+    background-image: url(../../image/Under-than-pink.svg);
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: right;
+    cursor: pointer;
+    background-size: 10px 10px;
+    content:"";
+    background-repeat: no-repeat;
+    content:"";
+}
+
+
+.image_user{
+    width: 40px;
+    height: 40px;
+    background: #E7ECED;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 105px;
+    font-family: var(--font-bradon);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--primary);
+}
+
+.checkBox_none{
+    display : none !important;
+}

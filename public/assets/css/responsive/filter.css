@@ -1,0 +1,162 @@
+.is_apply{
+    display: none !important;
+}
+@media(max-width: 1113px){
+    .list_filter{
+        display: none;
+    }
+
+    .list--title{
+        margin-left: 40px;
+        width: max-content;
+        display: inline-block;
+    }
+
+    .no_search_result{
+        padding : 5px 0;
+    }
+
+    .checkBox_none{
+        display : flex !important;
+    }
+
+    .list--search--select{
+        margin: 0 16px;
+        z-index: 99;
+    }
+
+    .list--search{
+        width: 270px;
+    }
+
+    .list--select__left{
+        margin-top: 15px;
+    }
+
+    .open_Nav_filter{
+        width: 25px;
+        height: 25px;
+        display:block;
+        background: url(../../image/filter.svg) no-repeat center center ;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+        position: absolute;
+        right: 0;
+        margin-right: 16px;
+        top: 90px;
+        margin-top: 5px;
+        /* z-index: 102; */
+    }
+
+    .btn_apply_mobi{
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        background : var(--white);
+        -webkit-backface-visibility: hidden;
+    }
+
+        .btn_apply_mobi button{
+            width: 46%;
+            padding: 12px;
+            margin: 5px;
+            margin-bottom: 10px;
+            border: none;
+            background: var(--pink_new);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--white);
+            max-width: 100%;
+        }
+
+        .btn_apply_mobi button:nth-child(1){
+            border: 1px solid var(--gray-C7);
+            background: var(--white);
+            color: var(--gray-6F);
+        }
+
+    .daterange_mobi{
+        width: auto !important;
+        margin : 0 20px !important;
+    }
+    .background-gray{
+        background: var(--white) !important;
+    }
+
+    .select_country_manual{
+        display: none
+    }
+
+    #recaptcha div:first-child{
+        margin-top: 25px;
+    }
+
+    .sort_value{
+        border-bottom: 1px solid var(--gray-C7);
+        margin-bottom: 10px;
+    }
+
+    .sort_value .container_checkbox{
+        margin-bottom: 10px;
+    }
+
+    .sort_by .container_checkbox{
+        margin-top: 10px;
+    }
+
+    .sort_based_on_brands p,
+    .sort_based_on_code p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (min-width: 740px) and (max-width: 1113px){
+
+}
+
+@media (min-width: 426px) and (max-width: 739px){
+    .list--search{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .list--search{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .open_Nav_filter{
+        margin-right: 10px;
+    }
+    .list--title{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 500px){
+    .is_apply{
+        display: flex !important;
+    }
+
+    .no_apply{
+        display: none !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .list--title p{
+        font-size: 20px ;
+    }
+
+    .search,
+    .btn_excel{
+        font-size: 12px !important ;
+    }
+}

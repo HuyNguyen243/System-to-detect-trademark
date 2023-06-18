@@ -1,0 +1,269 @@
+@media (min-width: 740px) and (max-width: 1113px){
+    .vituar_validation{
+        background: url(../../image/home/img-mobile-2.png) no-repeat center center !important;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .content__vituar{
+        padding: 0 16px;
+        margin-top: 0 !important;
+    }
+
+    .background__vituar-7 .background__image img{
+        width: 65px;
+    }
+
+    .open__nav--menu{
+        width: 40% !important;
+    }
+    .background__vituar-4{
+        margin: 0 60px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 739px){
+    .open__nav--menu{
+        width: 60% !important;
+    }
+
+    .vituar_validation{
+        background: url(../../image/home/img-mobile-2.png) no-repeat center center !important;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .background__vituar-2 > .background__image {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .background__vituar-2 .background__content{
+        margin-bottom: 33px;
+    }
+
+    .background__vituar-2 .background__content p:first-child{
+        font-family: var(--font-bradon);
+        font-style: normal;
+        font-weight: 420;
+        font-size: 31px;
+        line-height: 44px;
+        text-align: left;
+    }
+
+    .content__vituar{
+        padding: 0 16px;
+        margin-top: 0 !important;
+    }
+
+    .background__vituar-3 .rows{
+        flex-direction: column-reverse;
+    }
+
+    .background__vituar-3 .rows .background__content {
+        padding: 85px 0 145px 0;
+    }
+
+    .background__vituar-4 > p{
+        padding:20px 57px;
+        margin: 0;
+    }
+
+    .background__vituar-5 {
+        margin:0 15px !important;
+    }
+
+    .background__vituar-5 > .background__image{
+        padding: 35px 0 !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+
+    .background__vituar-5 > .background__image img{
+        width:  50% !important;
+    }
+
+    .background__vituar-5 > .background__image:first-child img{
+        width:  25% !important;
+    }
+
+    .background__vituar-7{
+        margin: 0 15px !important;
+    }
+
+    .background__vituar-7 .background__image{
+        padding: 17px !important;
+        margin-bottom: 13px !important;
+        border: none !important;
+        flex-direction: row !important;
+        height : 100% !important;
+    }
+    .background__vituar-7 .background__image p{
+        padding: 0 !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px !important;
+        line-height: 170%;
+        width: 90%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 100% !important;
+    }
+    .background__vituar-7 .background__image img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .background__vituar-7 .background__image > div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .catch-logo{
+        width: 250px;
+    }
+    .open__nav--menu{
+        width: 100% !important;
+    }
+
+    .vituar_validation{
+        background: url(../../image/home/img-mobile-2.png) no-repeat center center !important;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .content__vituar{
+        padding: 0 16px;
+        margin-top: 0 !important;
+    }
+
+    .background__vituar-2 .background__content p:first-child{
+        font-family: var(--font-bradon);;
+        font-style: normal;
+        font-weight: 420;
+        font-size: 31px;
+        line-height: 44px;
+        text-align: left;
+    }
+
+    .content__vituar p:first-child {
+        font-size: 39px !important;
+        line-height: 60px !important;
+    }
+
+    .content__vituar p:nth-child(2) {
+        text-align: justify !important;
+        padding-right: 0 !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .content__vituar button{
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        line-height: 170% !important;
+        padding: 10px 25px !important;
+    }
+
+
+
+    .background__vituar-2 .background__content p{
+        max-width:100%;
+        margin-bottom: 30px;
+    }
+
+    .background__vituar-2{
+        padding: 0 16px;
+    }
+
+    .background__vituar-3{
+        position: relative;
+    }
+
+    .background__vituar-3 .rows .background__content p{
+        margin: auto;
+    }
+
+    .background__vituar-3 .rows .background__image{
+        position: absolute;
+        top: 75%;
+        margin: 0 16px;
+    }
+
+    .background__vituar-4{
+        margin-top: 65px;
+    }
+
+    .background__vituar-4 p{
+        margin-bottom: 0 !important;
+        padding : 0 16px 20px 16px !important;
+        margin-top: 80px !important;
+        text-align:justify;
+    }
+
+    .background__vituar-5 {
+        margin:0 15px !important;
+    }
+
+    .background__vituar-5 > .background__image{
+        padding: 35px 0 !important;
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+
+    .background__vituar-5 > .background__image img{
+        width:  50% !important;
+    }
+
+    .background__vituar-5 > .background__image:first-child img{
+        width:  25% !important;
+    }
+
+    .background__vituar-6 p {
+        padding: 70px 0 35px 0 !important;
+        font-size: 31px !important;
+        font-weight: 420 !important;
+        line-height: 44px !important;
+    }
+
+    .background__vituar-7{
+        margin: 0 15px !important;
+    }
+
+    .background__vituar-7 .background__image{
+        padding: 17px !important;
+        flex-direction: row !important;
+        margin-bottom: 13px !important;
+        border: none !important;
+        height : 64px !important;
+    }
+    .background__vituar-7 .background__image p{
+        padding: 0 !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px !important;
+        line-height: 170%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        width: 100%;
+        height: 100% !important;
+    }
+    .background__vituar-7 .background__image img{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .background__vituar-7 .background__image > div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+

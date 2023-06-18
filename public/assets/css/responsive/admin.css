@@ -1,0 +1,202 @@
+@media (min-width: 1114px) {
+    .tbody_admin{
+        display: flex;
+    }
+}
+
+@media (max-width: 1113px) {
+    .list_query-right .list--select--option {
+        display: none;
+    }
+
+    .list_query{
+        display: block !important;
+        margin-top: 15px;
+        margin-right: 0 !important;
+    }
+
+    .query_left .list--select__left {
+        margin-top: 20px;
+    }
+
+    .query_left,
+    .query_left .list--select__left .list--search {
+        width: 100% !important;
+        margin : 0 !important;
+    }
+
+    .search_admin .list--search {
+        margin-top: 40px;
+    }
+
+    .search_admin{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search_admin > div:nth-child(2){
+        display: block !important;
+    }
+
+    .search_admin > div .open_Nav_filter{
+        top: inherit;
+        margin-top: -35px;
+        z-index: 1;
+    }
+
+    .create__profile{
+        margin: 0px;
+        padding: 0px;
+        background-color: transparent;
+        width: inherit;
+        display: block;
+    }
+
+    .create__profile:after {
+        content: url(../../image/add_user.svg);
+        position: absolute;
+        top: 80;
+        right: 0;
+        margin: 17px 16px 0 0 ;
+        /* z-index: 102 !important; */
+    }
+
+    .unvailable_create_profile{
+        display:none;
+    }
+
+    .thead_admin{
+        display: none !important;
+    }
+
+    .tbody_admin{
+        display: block ;
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .tbody_admin > li:first-child{
+        display: none;
+    }
+
+    .tbody_admin > li{
+        padding: 5px 0 !important;
+        width: 80% !important;
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+
+    .tbody_admin li:nth-child(5){
+        position: absolute;
+        top: 0;
+        border-radius: 5px;
+        text-align: center;
+        width: 95px !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 170%;
+        margin-top: 10px;
+    }
+
+    .tbody_admin > li:nth-child(2){
+        padding-top: 50px !important;
+        color: var(--primary);
+    }
+
+    .style_ADMIN{
+        color: #5DA364 !important;
+        background: #E2F2E3;
+    }
+
+    .style_SUPERVISOR{
+        color: #F37422 !important;
+        background: #FFE4D2;
+    }
+
+    .style_OPERATOR{
+        color: var(--primary) !important;
+        background: #DDEAF3 ;
+    }
+
+    .btn_edit:after{
+        content: url(../../image/edit_user.svg) !important;
+        padding-right: 16px;
+    }
+
+    .img_admin > li:nth-child(2){
+        display: none;
+    }
+
+    .pagenate_admin > div:first-child{
+        display: none;
+    }
+
+    .img_admin{
+        position: absolute;
+        top: 25%;
+        right: 0;
+        width: max-content !important;
+        display: block !important;
+    }
+
+    .table__admin--management{
+        margin : 10px 0  20px 0!important;
+    }
+
+    .tbody_admin > li:nth-child(3):before{
+        content : "Email: ";
+        color : var(--gray-6F);
+    }
+
+    .tbody_admin > li:nth-child(4):before{
+        content : "Phone number: ";
+        color : var(--gray-6F);
+    }
+
+    .delete__profile_modal{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        color: #D80027;
+        text-decoration: underline;
+    }
+
+    .search__result__table p {
+        font-size: 34px;
+    }
+    .search_admins{
+        width: 90%;
+    }
+
+    .pagenate_admin {
+        margin-right: 0px !important;
+        display: block;
+    }
+
+}
+
+@media (max-width: 739px){
+    .search_admin .list--search {
+        width: 93%;
+    }
+    #modal__delete-account .modal__content{
+        margin: 0 20px;
+    }
+}
+
+@media (max-width : 425px) {
+    .search_admin > div .open_Nav_filter{
+        right: 6px;
+    }
+    .search_admins{
+        width: 80%;
+    }
+}
+
+@media (max-width : 340px) {
+    .search_admin > div .open_Nav_filter{
+        right: 11px;
+    }
+}
